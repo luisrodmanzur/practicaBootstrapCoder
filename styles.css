@@ -1,0 +1,27 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+}
+
+.carousel-item img{
+  height: 550px;
+}
+
+header{
+  background: #fff;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.loginMinicart{
+  margin-left: -10px;
+}
+
+footer{
+  background: #fff;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.footer__address{
+  margin-top: 1px;
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>BetaVapes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="row">
+        <!-- Logo -->
+        <div class="col-sm-6 d-flex justify-content-center">
+          <a href="index.html" class="">
+            <img
+              class="header__logo__img"
+              width="200px"
+              src="img/logo-removebg-preview (1).png"
+            />
+          </a>
+          <h1 class="header__logo__text d-flex align-items-center">
+            BETAVAPES
+          </h1>
+        </div>
+        <div class="loginMinicart col-sm-6 d-flex justify-content-end pt-3">
+          <!-- Login -->
+          <div class="header__login">
+            <a href="login.html"
+              ><img
+                class="header__login__img"
+                src="img/login.png"
+                alt="login"
+                width="29rem"
+                height="29rem"
+            /></a>
+          </div>
+          <!-- MiniCart -->
+          <div class="header__miniCart">
+            <a href="#"
+              ><img
+                class="header__miniCart__img"
+                src="img/carrito-removebg-preview.png"
+                alt="Shopping Cart"
+                width="45rem"
+                height="30rem"
+            /></a>
+          </div>
+        </div>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">E-Liquids</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Kits
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Kits de Inicio</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Kits Avanzados</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Insumos y Accesorios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contactanos</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="¿Que quieres buscar?"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="row">
+        <div id="carouselExampleIndicators" class="carousel slide col-sm-12" data-interval="10000" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img2/slide1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img2/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img2/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </section>
+      <main>
+        <div class="row d-flex justify-content-evenly my-5">
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-evenly my-5">
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-sm-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="row">
+        <div class="col-sm-4 mt-4 px-3 d-flex flex-column justify-content-between">
+          <!-- DIRECCION, TELEFONO, HORARIOS-->
+          <div class="footer__address align-items-center">
+            <h4 class="d-flex justify-content-center mb-0">SUCURSAL BUIN</h4>
+            <p class="d-flex justify-content-center mb-1">DIRECCIÓN: Patricio Vega 995, local 99.</p>
+            <h4 class="d-flex justify-content-center mb-0">TELEFONO:</h4>
+            <p class="d-flex justify-content-center mb-1">+56958511163</p>
+            <h4 class="d-flex justify-content-center mb-0">HORARIO DE ATENCIÓN:</h4>
+            <p class="d-flex justify-content-center mb-1">Lun - Viernes: 10:00 AM - 18:00 PM</p>
+            <p class="d-flex justify-content-center mb-1">Sábado: 10:00 AM a 14:00 PM</p>
+          </div>
+          <!-- DERECHOS RESERVADOS -->
+          <div class="footer__copyright justify-content-start">
+            <p><strong>Beta Vapes Shop 2019. All Rights Reserved</strong></p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-4 px-3">
+          <!-- UBICACION GOOGLE MAPS -->
+          <div class="footer__location">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3317.8967940264474!2d-70.7526725847932!3d-33.737484780692746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spatricio%20vega%20gonzalez%20995%20buin!5e0!3m2!1ses!2scl!4v1624841440878!5m2!1ses!2scl"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-4 d-flex flex-column justify-content-between px-3">
+          <!-- Newsletter -->
+          <div class="footer__newsletter d-flex flex-column justify-items-center">
+            <h2 class="footer__newsletter__title mb-3 align-self-center">NEWSLETTER</h2>
+            <input
+              class="footer__newsletter__input mb-3"
+              type="email"
+              name="correoElectronico"
+              placeholder="Tu dirección de correo"
+            />
+            <button class="footer__newsletter__button mb-3" type="submit">
+              SUSCRIBIR!
+            </button>
+            <p class="footer__newsletter__texto mb-3 d-flex justify-content-center">
+              Puede darse de baja en cualquier momento.<br />Para ello,
+              encuentre nuestra información<br />de contacto en el aviso legal.
+            </p>
+          </div>
+          <!-- Social Networks -->
+          <div class="footer__socialNetworks d-flex justify-content-end mb-3 mt-5">
+            <a title="Facebook" href="https://es-la.facebook.com/"
+              ><img
+                class="footer__socialNetworks__img"
+                src="https://image.flaticon.com/icons/png/512/174/174848.png"
+                alt="Facebook" width="50px"
+            /></a>
+            <a title="YouTube" href="https://www.youtube.com/"
+              ><img
+                class="footer__socialNetworks__img ms-2"
+                src="https://image.flaticon.com/icons/png/512/1384/1384060.png"
+                alt="YouTube" width="50px"
+            /></a>
+            <a title="Instagram" href="https://www.instagram.com/?hl=es-la"
+              ><img
+                class="footer__socialNetworks__img ms-2"
+                src="https://image.flaticon.com/icons/png/512/2111/2111463.png"
+                alt="Instagram" width="50px"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    -->
+  </body>
+</html>
